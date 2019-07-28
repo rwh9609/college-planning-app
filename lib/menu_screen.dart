@@ -350,9 +350,7 @@ class _MenuListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return new InkWell(
       splashColor: const Color(0x44000000),
-      onTap: isSelected
-          ? null
-          : onTap,
+      onTap: onTap,
       child: Container(
         width: double.infinity,
         child: new Padding(

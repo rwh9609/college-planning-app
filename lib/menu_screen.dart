@@ -169,6 +169,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
             image: new DecorationImage(
               image: new AssetImage('assets/stars.jpg'),
               fit: BoxFit.cover,
+              colorFilter: new ColorFilter.mode(const Color(0xCC000000), BlendMode.multiply),
             ),
           ),
           child: new Material(

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:zoom_menu/menu_screen.dart';
+import 'package:zoom_menu/study_tips_screen.dart';
 import 'package:zoom_menu/zoom_scaffold.dart';
 import 'package:zoom_menu/home_screen.dart';
 import 'package:zoom_menu/settings_screen.dart';
+import 'package:zoom_menu/add_a_course_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -65,8 +67,12 @@ class _MyHomePageState extends State<MyHomePage> {
           selectedMenuItemId = itemId;
           if (itemId == 'home') {
             setState(() => activeScreen = homeScreen);
-          } else {
+          } else if (itemId == 'courses') {
+            setState(() => activeScreen = coursesScreen);
+          } else if (itemId == 'settings') {
             setState(() => activeScreen = settingsScreen);
+          } else {
+            setState(() => activeScreen = studyTipsScreen);
           }
         },
       ),

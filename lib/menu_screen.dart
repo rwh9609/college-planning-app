@@ -69,7 +69,7 @@ class _MenuScreenState extends State<MenuScreen> with TickerProviderStateMixin {
         maxWidth: double.infinity,
         alignment: Alignment.topLeft,
         child: new Padding(
-          padding: const EdgeInsets.fromLTRB(120,20,0,0),
+          padding: const EdgeInsets.fromLTRB(120,35,0,0),
           child: new Text(
             'menu',
             style: new TextStyle(

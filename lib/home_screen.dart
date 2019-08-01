@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:zoom_menu/zoom_scaffold.dart';
 
 final Screen homeScreen = new Screen(
-    title: 'course planning app',
+    title: 'COURSE PLANNING',
     background: new DecorationImage(
       image: new AssetImage('assets/main.jpg'),
       fit: BoxFit.cover,

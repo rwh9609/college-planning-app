@@ -4,7 +4,7 @@ import 'package:zoom_menu/study_tips_screen.dart';
 import 'package:zoom_menu/zoom_scaffold.dart';
 import 'package:zoom_menu/home_screen.dart';
 import 'package:zoom_menu/settings_screen.dart';
-import 'package:zoom_menu/add_a_course_screen.dart';
+import 'package:zoom_menu/course_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'College Planner',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
       home: MyHomePage(title: 'College Planner Home Page'),
     );
